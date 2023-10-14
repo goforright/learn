@@ -13,9 +13,17 @@
    
 //   module.exports = nextConfig
 
+// local|github 
+const deployEnv = 'github'
+
 
 const nextConfig = {
     output: 'export',
+    
+    env: {
+        customKey: 'my-value',
+        imagePrefix: deployEnv == 'github' ? '/learn':''
+      }
 
   }
    
