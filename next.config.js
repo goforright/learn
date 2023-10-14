@@ -15,6 +15,7 @@
 
 // local|github 
 const deployEnv = 'github'
+// const deployEnv = 'local'
 
 
 const nextConfig = {
